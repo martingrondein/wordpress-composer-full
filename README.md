@@ -41,5 +41,22 @@ git clone git@github.com:martingrondein/wordpress-composer-full.git
 cd wordpress-composer-full
 composer install
 ```
+
+3. Copy web/index.php to your project folder. You can do this from the command line with
+
+```
+cp web/index.php ./index.php
+```
+
+4. Slightly modify index.php in your project root. The index.php in the root of your project (the one you just created via a copy command) should be modified.
+
+So...
+```
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
+```
+... becomes ...
+```
+require( dirname( __FILE__ ) . '/web/wp-blog-header.php' );
+```
 --- 
 Please note: If you are looking for a no-frills composer.json template, please see the [wordpress-composer-base](https://github.com/martingrondein/wordpress-composer-base) repo.
