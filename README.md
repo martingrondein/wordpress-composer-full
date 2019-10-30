@@ -32,13 +32,13 @@ Please see requirements below before moving on to the steps.
 1. Clone this repository into your website projects folder:
 
 ```
-git clone git@github.com:martingrondein/wordpress-composer-base.git
+git clone git@github.com:martingrondein/wordpress-composer-full.git
 ```
 
 2. Install this desired setup with Composer:
 
 ```
-cd wordpress-composer-base
+cd wordpress-composer-full
 composer install
 ```
 --- 
