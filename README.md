@@ -5,7 +5,7 @@ A full fledged composer template for setting up and managing a WordPress project
 This template comes with the following plugins:
 ---
 
-[https://wordpress.org/plugins/all-in-one-schemaorg-rich-snippets/] Schema – All In One Schema Rich Snippets
+[Schema – All In One Schema Rich Snippets](https://wordpress.org/plugins/all-in-one-schemaorg-rich-snippets/)
       "wpackagist-plugin/all-in-one-schemaorg-rich-snippets":"^1.5.6",
       "wpackagist-plugin/amp":"1.3.0",
       "wpackagist-plugin/block-bad-queries":"*",
@@ -18,5 +18,5 @@ This template comes with the following plugins:
       "wpackagist-plugin/wordfence":"^7.4.0",
       "wpackagist-plugin/wordpress-seo": "*"
 
-If you are looking for a no-frills composer.json template, please see the [https://github.com/martingrondein/wordpress-composer-base] (wordpress-composer-base) repo.
+If you are looking for a no-frills composer.json template, please see the [wordpress-composer-base] (https://github.com/martingrondein/wordpress-composer-base) repo.
 
