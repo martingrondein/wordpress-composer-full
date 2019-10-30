@@ -15,5 +15,31 @@ This template comes with the following standard plugins:
 - [Super Progressive Web Apps](https://wordpress.org/plugins/super-progressive-web-apps/)
 - [Wordfence](https://wordpress.org/plugins/wordfence/)
 - [YoastSEO](https://wordpress.org/plugins/wordpress-seo/)
- 
-If you are looking for a no-frills composer.json template, please see the [wordpress-composer-base](https://github.com/martingrondein/wordpress-composer-base) repo.
+
+---
+
+## How To Setup:
+
+Please see requirements below before moving on to the steps.
+
+### Requirements:
+- Server with PHP / Apache (or Nginx) / MySQL (or PostreSQL)
+- Git
+- Composer
+
+### Steps:
+
+1. Clone this repository into your website projects folder:
+
+```
+git clone git@github.com:martingrondein/wordpress-composer-base.git
+```
+
+2. Install this desired setup with Composer:
+
+```
+cd wordpress-composer-base
+composer install
+```
+--- 
+Please note: If you are looking for a no-frills composer.json template, please see the [wordpress-composer-base](https://github.com/martingrondein/wordpress-composer-base) repo.
